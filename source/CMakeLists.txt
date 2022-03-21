@@ -62,7 +62,7 @@ set(CMAKE_ASM_FLAGS "${CFLAGS}")
 # Project setup
 
 set(input_other_files
-    dependencies/delay.c)
+    MidiManager/MidiManager.c)
 
 add_executable(${PROJECT_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/main.c ${input_other_files})
 set_target_properties(${PROJECT_NAME} PROPERTIES OUTPUT_NAME "${PROJECT_NAME}.elf")
